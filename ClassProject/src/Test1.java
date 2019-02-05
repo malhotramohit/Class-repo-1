@@ -28,7 +28,7 @@ public class Test1 {
 		System.out.println(oldLamp.isOn);
 		
 		System.out.println("isOn flag for new Lamp " +newLamp.isOn);
-		
+		System.out.println("id is " +newLamp.getId());
 		
 		
 		
@@ -43,7 +43,7 @@ class Lamp {
 	
 	// member variable , field
 	boolean isOn = false;	
-	int id = 0;
+	int id = 3;
 	String nameOfLamp = "MyLamp";
 	
 	// methods : method name, return type void , int, short , int[], Lamp, body { }
@@ -51,6 +51,11 @@ class Lamp {
 		System.out.println("inside swicth in method");
 		isOn = true;
 		System.out.println("exit swicth  method");
+		return ;
+	}
+	
+	int getId() {
+		return id;
 	}
 	
 	
