@@ -30,6 +30,7 @@ public class Test1 {
 		System.out.println("isOn flag for new Lamp " +newLamp.isOn);
 		System.out.println("id is " +newLamp.getId());
 		
+		Lamp.checkLamp();
 		
 		
 		
@@ -56,6 +57,10 @@ class Lamp {
 	
 	int getId() {
 		return id;
+	}
+	
+	static void checkLamp() {
+		System.out.println("check lamp static method");
 	}
 	
 	
