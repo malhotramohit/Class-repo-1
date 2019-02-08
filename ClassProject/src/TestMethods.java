@@ -43,6 +43,12 @@ class CalculatorInside{
 			int result = a+b;
 			return result;
 		}
+	 
+	 double method1() {
+		 System.out.println("Hello");
+		 int a=2;
+		 return a;
+	 }
 	
 	
 }
