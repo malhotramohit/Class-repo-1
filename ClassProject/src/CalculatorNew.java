@@ -14,7 +14,7 @@ public class CalculatorNew {
 		System.out.print("Enter number1 and number2 respectively: ");
 		number1 = scanner.nextInt();
 		number2 = scanner.nextInt();
-		
+		scanner.close();
 		OldCalculator shivamsCal = new OldCalculator();
 
 		switch (operator) {

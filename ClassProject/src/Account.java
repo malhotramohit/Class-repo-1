@@ -1,7 +1,7 @@
 
 public class Account {
 
-	long accNum;
+	public long accNum;
 	long chNum;
 
 	String name;
@@ -12,9 +12,12 @@ public class Account {
 	// Rule:
 	// 1) should have same name as class name
 	// 2) no return type
-
+	//
+	
 	// ?// no return type
-	Account(long accNumParam, long chkNumParam) {
+
+	
+	public Account(long accNumParam, long chkNumParam) {
 		System.out.println("inside cons going to initialize "+ accNumParam );
 		accNum = accNumParam;
 		chNum = chkNumParam;
@@ -27,7 +30,7 @@ public class Account {
  	}
 
 	//not a cons
-	int Account() {
+	public int Account() {
 		return 0;
 	}
 
